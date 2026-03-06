@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – Hint Mint</title>
+  <meta name="description" content="Get in touch with Hint Mint. Customer support, distribution and private label inquiries.">
+  <link rel="icon" href="/assets/images/branding/hm-logomark.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/images/branding/hm-logomark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="masthead" class="sticky top-0 z-50 bg-white shadow-sm">
+  <nav class="hidden lg:flex items-center justify-between px-6 min-h-[80px]" aria-label="Main">
+    <div class="flex items-center gap-1 text-[17px] text-medium-gray">
+      <a href="/quiet-luxury/" class="px-3 py-2 hover:text-teal transition-colors">Quiet Luxury</a>
+      <span>|</span>
+      <a href="/creative-flair/" class="px-3 py-2 hover:text-teal transition-colors">Creative Flair</a>
+    </div>
+    <a href="/" class="flex-shrink-0">
+      <img src="/assets/images/branding/hm-logo-black.gif" alt="Hint Mint" class="h-auto max-w-[250px]">
+    </a>
+    <div class="flex items-center gap-1 text-[17px] text-medium-gray">
+      <a href="/our-ethos/" class="px-3 py-2 hover:text-teal transition-colors">Our Ethos</a>
+      <span>|</span>
+      <a href="/our-story/" class="px-3 py-2 hover:text-teal transition-colors">Our Story</a>
+    </div>
+  </nav>
+  <div class="lg:hidden flex items-center justify-between px-4 py-3">
+    <a href="/">
+      <img src="/assets/images/branding/hm-logo-black.gif" alt="Hint Mint" class="h-auto max-w-[200px]">
+    </a>
+    <button id="mobile-toggle" aria-label="Open menu" class="text-medium-gray p-2">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+  <div id="mobile-drawer" class="fixed inset-0 z-50 hidden">
+    <div class="absolute inset-0 bg-black/50" data-close-drawer></div>
+    <div class="absolute right-0 top-0 h-full w-72 bg-charcoal text-white p-6">
+      <button class="mb-8 text-white" aria-label="Close menu" data-close-drawer>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <nav class="flex flex-col">
+        <a href="/" class="py-4 border-b border-white/10 text-sm hover:text-teal transition-colors">Our Mints</a>
+        <a href="/quiet-luxury/" class="py-4 border-b border-white/10 text-sm hover:text-teal transition-colors">Quiet Luxury</a>
+        <a href="/creative-flair/" class="py-4 border-b border-white/10 text-sm hover:text-teal transition-colors">Creative Flair</a>
+        <a href="/our-ethos/" class="py-4 border-b border-white/10 text-sm hover:text-teal transition-colors">Our Ethos</a>
+        <a href="/our-story/" class="py-4 border-b border-white/10 text-sm hover:text-teal transition-colors">Our Story</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="content-narrow py-16">
+    <h2 class="text-3xl font-semibold text-charcoal mb-6">Customer Service</h2>
+    <p class="text-lg text-dark-gray mb-4">Email: <a href="mailto:support@hintmint.com" class="text-teal hover:underline">support@hintmint.com</a></p>
+    <p class="text-lg text-dark-gray mb-4">Mailing Address: P.O. Box 2210, San Anselmo, CA 94979-2210, USA</p>
+    <p class="text-lg text-dark-gray mb-4">Tel: +1(650)671-3330</p>
+
+    <h2 class="text-3xl font-semibold text-charcoal mt-12 mb-6">Distribution &amp; Private Label Opportunities</h2>
+    <p class="text-lg text-dark-gray mb-4"><a href="mailto:partner@hintmint.com" class="text-teal hover:underline">partner@hintmint.com</a></p>
+
+    <div class="border-t border-gray-200 my-12"></div>
+
+    <h2 class="text-3xl font-semibold text-charcoal mb-8">Send Us a Message</h2>
+    <form action="https://formspree.io/f/FORM_ID" method="POST" class="space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-charcoal mb-2">Name</label>
+        <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal focus:border-teal outline-none">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-charcoal mb-2">Email</label>
+        <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal focus:border-teal outline-none">
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-charcoal mb-2">Message</label>
+        <textarea id="message" name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal focus:border-teal outline-none"></textarea>
+      </div>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </div>
+</main>
+
+<footer class="bg-off-white mt-20">
+  <div class="content-container py-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div>
+        <h2 class="font-medium text-[17px] text-charcoal mb-4">Hint Mint</h2>
+        <ul class="space-y-2 text-[17px] text-dark-gray">
+          <li><a href="/" class="hover:text-teal transition-colors">Our Mints</a></li>
+          <li><a href="/quiet-luxury/" class="hover:text-teal transition-colors">Quiet Luxury</a></li>
+          <li><a href="/creative-flair/" class="hover:text-teal transition-colors">Creative Flair</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-medium text-[17px] text-charcoal mb-4">&nbsp;</h2>
+        <ul class="space-y-2 text-[17px] text-dark-gray">
+          <li><a href="/our-ethos/" class="hover:text-teal transition-colors">Our Ethos</a></li>
+          <li><a href="/our-story/" class="hover:text-teal transition-colors">Our Story</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-medium text-[17px] text-charcoal mb-4">Information</h2>
+        <ul class="space-y-2 text-[17px] text-dark-gray">
+          <li><a href="/faq/" class="hover:text-teal transition-colors">FAQ</a></li>
+          <li><a href="/contact/" class="hover:text-teal transition-colors">Contact Us</a></li>
+          <li><a href="/private-label/" class="hover:text-teal transition-colors">Private Label</a></li>
+          <li><a href="/distribution/" class="hover:text-teal transition-colors">Distribution</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-medium text-[17px] text-charcoal mb-4">Legal</h2>
+        <ul class="space-y-2 text-[17px] text-dark-gray">
+          <li><a href="/privacy-policy/" class="hover:text-teal transition-colors">Privacy Policy</a></li>
+          <li><a href="/terms-of-use/" class="hover:text-teal transition-colors">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="content-container py-6 border-t border-gray-200">
+    <p class="text-[15px] text-medium-gray">&copy; 2026 Hint Mint</p>
+  </div>
+</footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

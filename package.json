@@ -1,0 +1,27 @@
+{
+  "name": "hintmint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/styles/main.css -o ./assets/css/main.css --minify",
+    "watch:css": "npx @tailwindcss/cli -i ./src/styles/main.css -o ./assets/css/main.css --watch",
+    "build": "npm run build:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eightecho/hintmint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eightecho/hintmint/issues"
+  },
+  "homepage": "https://github.com/eightecho/hintmint#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
