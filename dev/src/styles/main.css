@@ -16,6 +16,14 @@
   --max-width-content: 1290px;
   --max-width-narrow: 842px;
   --max-width-wide: 1520px;
+
+  /* Custom breakpoints — lower lg so desktop layout kicks in earlier
+     (covers browser zoom scenarios; default was 64rem / 1024px) */
+  --breakpoint-sm: 40rem;  /* 640px */
+  --breakpoint-md: 48rem;  /* 768px */
+  --breakpoint-lg: 56rem;  /* 896px — was 64rem / 1024px */
+  --breakpoint-xl: 80rem;  /* 1280px */
+  --breakpoint-2xl: 96rem; /* 1536px */
 }
 
 @layer base {
